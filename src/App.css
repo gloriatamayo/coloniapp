@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  display: block;
+  width: 500px;
+  margin-top: 120px;
+}
+.title {
+  text-align: center;
+  color: black;
+  background-color: aquamarine;
+  border-radius: 50px;
+}
+.new-task {
+  display: block;
+  width: 100%;
+  background-color: azure;
+  border-radius: 10px;
+  height: 40px;
+  border-color: grey;
+  border-width: 4px;
+  text-align: left;
+  font-size: 20px;
+}
+.inicio {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+a:link {
+  color: gray;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(91, 91, 95);
+  font-family: arial;
+  border-radius: 8px;
+}
